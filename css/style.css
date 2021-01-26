@@ -7,6 +7,20 @@ body {
 
 /*
 *
+* Global
+*
+*/
+.active {
+  color: #fff;
+}
+
+.center {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*
+*
 * Header
 *
 */
@@ -18,6 +32,7 @@ header {
           justify-content: space-between;
   -webkit-box-shadow: 1rem #000;
           box-shadow: 1rem #000;
+  border-bottom: 2px solid #fff;
 }
 
 header .container {
@@ -48,32 +63,48 @@ header ul li a:hover {
   color: #fff;
 }
 
-header header::after {
-  content: " ";
-  height: 1px;
-  padding-bottom: 1px;
-  color: aqua;
-  display: block;
+/*
+*
+* Main
+*
+*/
+/*
+*
+* Hero section
+*
+*/
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #e9e9e9;
+  border: 1px solid #fff;
+  margin-top: 1rem;
 }
 
-main {
+.hero img {
+  float: right;
+}
+
+.hero .details {
   position: relative;
+  text-align: center;
+  line-height: 48px;
+  left: 32px;
+  top: 90px;
+  width: 370px;
 }
 
-.active {
-  color: #fff;
+.hero h1 {
+  margin: 0;
+  color: #4e5944;
+  font-size: 30px;
+  font-weight: normal;
 }
 
-.center {
-  width: 960px;
-  margin: 0 auto;
-}
-
-.box-shadow {
-  background: url(../images/bg-adbox.png) no-repeat center bottom;
-  border-bottom: 1px solid #fff;
-  padding-top: 15px;
-  position: absolute;
-  top: 0px;
+.hero p {
+  margin: 0;
+  color: #4e5944;
+  font-size: 26px;
 }
 /*# sourceMappingURL=style.css.map */
