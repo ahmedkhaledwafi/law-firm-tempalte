@@ -93,6 +93,9 @@ header ul li a:hover {
   left: 32px;
   top: 90px;
   width: 370px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .hero h1 {
@@ -106,5 +109,75 @@ header ul li a:hover {
   margin: 0;
   color: #4e5944;
   font-size: 26px;
+}
+
+/*
+*
+* section 2
+*
+*/
+.section-2 {
+  background-color: #eeeeee;
+  border: 1px solid #fff;
+  color: #57614e;
+}
+
+.section-2 .section-2--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-2 .promise {
+  border-right: 1px dotted #959992;
+  width: 700px;
+}
+
+.section-2 .promise h1 {
+  font-size: 32px;
+  line-height: 36px;
+  padding: 12px 0 12px;
+  text-transform: none;
+  color: #57614e;
+  font: 1.8rem "Times New Roman", Times, serif;
+  margin: 0 0 12px;
+}
+
+.section-2 .promise p {
+  font: 14px/24px Arial, Helvetica, sans-serif;
+  margin: 0 0 24px;
+}
+
+.section-2 .promise p a {
+  color: #57614e;
+}
+
+.section-2 .testimonials {
+  float: right;
+  width: 260px;
+  margin-left: 20px;
+  padding: 24px 10px 0px;
+}
+
+.section-2 .testimonials h1 {
+  color: #57614e;
+  font: 19px/24px "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section-2 .testimonials .author-name {
+  float: right;
+}
+
+.section-2 .testimonials p {
+  color: #626262;
+  font: 14px/24px Arial, Helvetica, sans-serif;
+  margin: 0 0 24px;
+}
+
+.section-2 p {
+  color: #626262;
 }
 /*# sourceMappingURL=style.css.map */
